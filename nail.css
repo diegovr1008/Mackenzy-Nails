@@ -1,196 +1,193 @@
 body {
-    background-color: #ffe4ec;
-    /* Define a cor de fundo da página */
-    font-family: Arial, sans-serif;
-    /* Define a fonte principal do site */
-    margin: 100px;
-    /* Esse cara define a margem das 4 direções (topo, fundo, esquerda, direita)*/
-    margin-top: 0;
-    /* Esse cara define a margem do topo*/
-    margin-bottom: 0;
-    /* Esse cara define a margem do fundo*/
-    margin-left: 0;
-    /* Esse cara define a margem do lado esquerdo*/
-    margin-right: 0;
-    /* Esse cara define a margem do lado direito*/
-    padding: 20px;
-    /* Cria um espaço interno entre a borda da página e o conteúdo */
+  background-color: #ffe4ec;
+  /* Define a cor de fundo da página */
+  font-family: 'Playfair Display', serif;
+  /* Define a fonte principal do site */
+  margin: 100px;
+  /* Esse cara define a margem das 4 direções (topo, fundo, esquerda, direita)*/
+  margin-top: 0;
+  /* Esse cara define a margem do topo*/
+  margin-bottom: 0;
+  /* Esse cara define a margem do fundo*/
+  margin-left: 0;
+  /* Esse cara define a margem do lado esquerdo*/
+  margin-right: 0;
+  /* Esse cara define a margem do lado direito*/
+  padding: 20px;
+  /* Cria um espaço interno entre a borda da página e o conteúdo */
 }
 
 .titulo-principal {
-    color: #ffffff;
-    /* Define a cor do texto como branco */
-    background-color: #d81b60;
-    /* Define um fundo verde para o título */
-    font-size: 36px;
-    /* Define o tamanho da fonte */
-    font-weight: 800;
-    /* Deixa o texto mais grosso/negrito */
-    text-align: center;
-    /* Centraliza o texto */
-    padding: 20px;
-    /* Adiciona espaço interno ao redor do texto */
-    border-radius: 10px;
-    /* Arredonda as bordas */
+  color: #ffffff;
+  /* Define a cor do texto como branco */
+  background-color: #d81b60;
+  /* Define um fundo verde para o título */
+  font-size: 36px;
+  /* Define o tamanho da fonte */
+  font-weight: 800;
+  /* Deixa o texto mais grosso/negrito */
+  text-align: left;
+  /* Centraliza o texto */
+  padding: 20px;
+  /* Adiciona espaço interno ao redor do texto */
+  border-radius: 10px;
+  /* Arredonda as bordas */
+}
+
+.titulo-principal nav {
+  margin: 10px;
+  text-align:right;
+  margin-top: -50px;
+  
+}
+
+.titulo-principal a {
+  color:#ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 15px;
+  
+}
+.titulo-principal a:hover {
+  color: #333333;
 }
 
 .subtitulo {
-    color: #880e4f;
-    /* Cor do texto */
-    font-size: 20px;
-    /* Tamanho da fonte */
-    text-align: center;
-    /* Centraliza o texto */
-    margin-top: 20px;
-    /* Espaço acima do elemento */
-    margin-bottom: 10px;
-    /* Espaço abaixo do elemento */
+  color: #880e4f;
+  /* Cor do texto */
+  font-size: 35px;
+  /* Tamanho da fonte */
+  text-align: center;
+  /* Centraliza o texto */
+  margin-top: 30px;
+  /* Espaço acima do elemento */
+  margin-bottom: 20px;
+  /* Espaço abaixo do elemento */
 }
 
 .texto-destaque {
-    color: #c2185b;
-    /* Cor laranja avermelhada para chamar atenção */
-    font-weight: bold;
-    /* Deixa o texto em negrito */
-    background-color: #fff0f5;
-    /* Fundo claro para destacar */
-    padding: 8px;
-    /* Espaço interno */
-    border-radius: 5px;
-    /* Bordas arredondadas */
+  color: #c2185b;
+  /* Cor laranja avermelhada para chamar atenção */
+  font-weight: bold;
+  /* Deixa o texto em negrito */
+  background-color: #fff0f5;
+  /* Fundo claro para destacar */
+  padding: 8px;
+  /* Espaço interno */
+  border-radius: 5px;
+  /* Bordas arredondadas */ 
+  font-size: 20px;
 }
 
-.imagem-supermercado {
-    display: block;
-    /* Faz a imagem se comportar como bloco */
-    margin: 20px auto;
-    /* Centraliza a imagem horizontalmente */
-    border-radius: 12px;
-    /* Arredonda as bordas da imagem */
-    border: 3px solid #2e7d32;
-    /* Adiciona uma borda verde */
-    width: 300px;
+.imagem-unhas {
+  display: block;
+  /* Faz a imagem se comportar como bloco */
+  margin: 20px auto;
+  /* Centraliza a imagem horizontalmente */
+  border-radius: 12px;
+  /* Arredonda as bordas da imagem */
+  border: 3px solid #d81b60;
+  /* Adiciona uma borda verde */
+  width: 450px;
 }
 
 .link-site {
-    color: #1565c0;
-    /* Cor azul para o link */
-    text-decoration: none;
-    /* Remove o sublinhado padrão do link */
-    font-weight: bold;
-    /* Deixa o texto do link mais forte */
+  color: #1565c0;
+  /* Cor azul para o link */
+  text-decoration: none;
+  /* Remove o sublinhado padrão do link */
+  font-weight: bold;
+  /* Deixa o texto do link mais forte */
 }
 
 .link-site:hover {
-    color: #0d47a1;
-    /* Muda a cor quando o mouse passa em cima */
-    text-decoration: underline;
-    /* Adiciona sublinhado no hover */
+  color: #0d47a1;
+  /* Muda a cor quando o mouse passa em cima */
+  text-decoration: underline;
+  /* Adiciona sublinhado no hover */
 }
 
-.menu {
-    background-color: #ec407a;
-    /* Fundo verde para o menu */
-    padding: 15px;
-    /* Espaço interno */
-    margin-top: 20px;
-    /* Espaço acima do menu */
-    border-radius: 8px;
-    /* Bordas arredondadas */
-    text-align: center;
-    /* Centraliza os links */
-}
-
-.menu a {
-    color: white;
-    /* Cor branca para os links do menu */
-    text-decoration: none;
-    /* Remove o sublinhado */
-    margin: 0 15px;
-    /* Espaçamento lateral entre os links */
-    font-weight: bold;
-    /* Deixa os links em negrito */
-}
-
-.menu a:hover {
-    color: #ffd1dc;
-    /* Altera a cor dos links ao passar o mouse */
-}
 
 h2 {
-    color: #880e4f;
-    /* Define a cor dos subtítulos */
-    margin-top: 30px;
-    /* Espaço acima dos subtítulos */
+  color: #880e4f;
+  /* Define a cor dos subtítulos */
+  margin-top: 30px;
+  /* Espaço acima dos subtítulos */
 }
 
-.lista-frutas {
-    background-color: #ffffff;
-    /* Fundo branco para a lista */
-    padding: 20px;
-    /* Espaço interno */
-    border-radius: 8px;
-    /* Bordas arredondadas */
-    width: fit-content;
-    /* Faz a largura se ajustar ao conteúdo */
+.lista-serviços {
+  background-color: none;
+  /* Fundo branco para a lista */
+  padding: 20px;
+  /* Espaço interno */
+  border-radius: 8px;
+  /* Bordas arredondadas */
+  width: fit-content;
+  /* Faz a largura se ajustar ao conteúdo */
 }
 
-.lista-frutas li {
-    color: #333333;
-    /* Cor do texto dos itens */
-    margin-bottom: 8px;
-    /* Espaço abaixo de cada item */
+.lista-serviços li {
+  color: #333333;
+  /* Cor do texto dos itens */
+  margin-bottom: 8px;
+  /* Espaço abaixo de cada item */
 }
 
 .lista-passos {
-    background-color: #ffffff;
-    /* Fundo branco para a lista ordenada */
-    padding: 40px;
-    /* Espaço interno */
-    border-radius: 30px;
-    /* Bordas arredondadas */
-    width: 150px;
-    /* Ajusta a largura ao conteúdo */
+  background-color: #ffffff;
+  /* Fundo branco para a lista ordenada */
+  padding: 40px;
+  /* Espaço interno */
+  border-radius: 30px;
+  /* Bordas arredondadas */
+  width: 150px;
+  /* Ajusta a largura ao conteúdo */
 }
 
 .lista-passos li {
-    color: #333333;
-    /* Cor dos itens */
-    margin-bottom: 8px;
-    /* Espaço abaixo de cada item */
+  color: #333333;
+  /* Cor dos itens */
+  margin-bottom: 8px;
+  /* Espaço abaixo de cada item */
 }
 
 .botao-compra {
-    background-color: #ff4081;
-    /* Fundo laranja no botão */
-    color: white;
-    /* Texto branco */
-    border: none;
-    /* Remove a borda padrão */
-    padding: 12px 20px;
-    /* Espaço interno vertical e horizontal */
-    font-size: 16px;
-    /* Tamanho da fonte */
-    font-weight: bold;
-    /* Texto em negrito */
-    border-radius: 8px;
-    /* Bordas arredondadas */
-    cursor: pointer;
-    /* Mostra a mãozinha ao passar o mouse */
-    margin-top: 20px;
-    /* Espaço acima do botão */
+  background-color: #ff4081;
+  /* Fundo laranja no botão */
+  color: white;
+  /* Texto branco */
+  border: none;
+  /* Remove a borda padrão */
+  padding: 12px 20px;
+  /* Espaço interno vertical e horizontal */
+  font-size: 16px;
+  /* Tamanho da fonte */
+  font-weight: bold;
+  /* Texto em negrito */
+  border-radius: 8px;
+  /* Bordas arredondadas */
+  cursor: pointer;
+  /* Mostra a mãozinha ao passar o mouse */
+  margin-top: 20px;
+  /* Espaço acima do botão */
 }
 
 .botao-compra:hover {
-    background-color: #00ffc3;
-    /* Muda a cor do botão ao passar o mouse */
+  background-color: #00ffc3;
+  /* Muda a cor do botão ao passar o mouse */
 }
 
 .rodape {
-    background-color: #d81b60;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    border-radius: 10px;
+  background-color: #d81b60;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
 }
