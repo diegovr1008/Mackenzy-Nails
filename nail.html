@@ -1,106 +1,81 @@
 <!DOCTYPE html>
-<!-- Informa ao navegador que este documento usa HTML5 -->
 <html lang="pt-br">
-  <!-- Início do documento HTML e definição do idioma como português do Brasil -->
-  <head>
-    <!-- Parte de configurações da página, que não aparece diretamente no conteúdo -->
-    <meta charset="UTF-8" />
-    <!-- Permite usar acentos e caracteres especiais corretamente -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Faz a página se adaptar melhor a telas menores -->
-    <title>Mackenzy Nail</title>
-    <!-- Título que aparece na aba do navegador -->
-    <link rel="icon" href="./assets/nail-icon.jpeg" />
-    <!-- Ícone da página que aparece ao lado do título na aba -->
-    <link rel="stylesheet" href="nail.css" />
-    <!-- Faz a ligação com o arquivo CSS externo -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mackenzy Nails</title>
 
-  <body>
-    <div class="titulo-principal">
-      <h1>Mackenzy Nail</h1>
-      <!-- Título principal da página com uma classe para estilizar no CSS -->
+  <link rel="stylesheet" href="nail.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-      <nav>
-        <!-- Área de navegação da página -->
-        <a href="#inicio">Início </a>
-        <!-- Link do menu apontando para a seção início -->
-        <a href="#serviços">serviços</a>
-        <!-- Link do menu apontando para a seção ofertas -->
-        <a href="#contato">Contato</a>
-        <!-- Link do menu apontando para a seção contato -->
-      </nav>
-      <!-- Tudo que fica dentro do body aparece visivelmente na página -->
-    </div>
-    <h2 class="subtitulo">
-      Unhas lindas, modernas e feitas com carinho para você!
-    </h2>
-    <!-- Parágrafo com texto de apresentação -->
-    <br />
-    <span class="texto-destaque"
-      >Agende seu horário e fique ainda mais linda!</span
-    >
-    <!-- Texto curto em linha, sem quebrar automaticamente -->
+<body>
 
-    <br />
-    <!-- Quebra de linha -->
-    <br />
-    <!-- Outra quebra de linha para separar visualmente -->
+  <header class="titulo-principal">
+    <h1>Mackenzy Nails</h1>
 
-    <div class="container">
-      <img src="./assets/unha.png" alt="Imagem de Unhas" class="imagem-unhas" />
+    <nav class="menu-navegacao">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-      <img src="./assets/unha.png" alt="Imagem de Unhas" class="imagem-unhas" />
+  <section id="inicio" class="secao-destaque">
+    <h2 class="subtitulo">Unhas modernas e impecáveis</h2>
 
-      <img src="./assets/unha.png" alt="Imagem de Unhas" class="imagem-unhas" />
-    </div>
-
-    <!-- Imagem ilustrativa com largura de 300 pixels e classe para estilização -->
-
-    <p>
-      Visite nosso site parceiro:
-      <a href="tinyurl.com/Bio-Sarahmackenzy" target="_blank" class="link-site">
-        Clique aqui
-      </a>
+    <p class="texto-destaque">
+      Atendimento profissional para você se sentir ainda mais linda
     </p>
-    <!-- Link que abre em outra aba -->
 
-    <h2 id="ofertas">Serviços disponíveis</h2>
-    <!-- Subtítulo da seção -->
-    <ul class="lista-serviços">
-      <!-- Lista não ordenada, usada quando a ordem não importa -->
+    <a href="https://wa.me/5562994693217" target="_blank">
+      <button class="botao-agendar">Agendar pelo WhatsApp</button>
+    </a>
+  </section>
+
+
+  <section id="servicos" class="secao">
+    <h2 class="subtitulo">Serviços</h2>
+
+    <br>
+    <ul class="lista-servicos">
       <li>Molde F1</li>
-      <!-- Item da lista -->
       <li>Fibra de Vidro</li>
-      <!-- Item da lista -->
       <li>Blindagem</li>
-      <!-- Item da lista -->
       <li>Pé em Gel</li>
-      <!-- Item da lista -->
     </ul>
+  </section>
 
-    <h2 id="contato">Como agendar</h2>
-    <!-- Outro subtítulo -->
-    <ol class="lista-contato">
-      <!-- Lista ordenada, usada quando existe sequência -->
-      <li>Escolha o serviço</li>
-      <!-- Primeiro passo -->
-      <li>Contato pelo WhatsApp</li>
-      <!-- Segundo passo -->
-      <li>Agende seu horário</li>
-      <!-- Terceiro passo -->
-      <li>Venha fazer suas unhas</li>
-      <!-- Quarto passo -->
-    </ol>
+  <section id="galeria" class="secao">
+    <h2 class="subtitulo">Trabalhos realizados</h2>
 
-    <button class="botao-agendar">Agendar horário</button>
-    <!-- Botão da página -->
+    <br>
+    <div class="container-galeria">
+      <img src="./assets/unha1.png" class="imagem-unhas">
+      <img src="./assets/unha2.png" class="imagem-unhas">
+      <img src="./assets/unha3.png" class="imagem-unhas">
+    </div>
+  </section>
 
-    <footer class="rodape">
-      <p>© 2026 Studio Mackenzy Nails</p>
-      <p>Instagram: @sarahmackenzynails</p>
-      <p>WhatsApp: (62) 99469-3217</p>
-    </footer>
-  </body>
+  <section class="secao">
+    <h2 class="subtitulo">Clientes satisfeitas</h2>
+
+    <br>
+    <p class="texto-depoimento">“Melhor manicure que já fui!” </p>
+    <p class="texto-depoimento">“Unhas perfeitas e duram muito!”</p>
+  </section>
+
+  <section id="contato" class="secao">
+    <h2 class="subtitulo">Contato</h2>
+
+    <p>WhatsApp: (62) 99469-3217</p>
+    <p>Instagram: @sarahmackenzynails</p>
+  </section>
+
+  <footer class="rodape">
+    <p>© 2026 Studio Mackenzy Nails</p>
+  </footer>
+
+</body>
 </html>
