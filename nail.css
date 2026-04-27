@@ -32,8 +32,8 @@
   .secao-destaque {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(rgba(216,27,96,0.7), rgba(216,27,96,0.7)),
-                url('./assets/unha1.png');
+    background: linear-gradient(rgba(216,27,96,0.8), rgba(216,27,96,0.3)),
+                url('./assets/unha4.png');
     background-size: cover;
     color: white;
   }
@@ -74,13 +74,22 @@
   
   .lista-servicos {
     margin-top: 15px;
-    display: inline-block;
-    text-align: left;
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    justify-content: center;
   }
   
   .lista-servicos li {
     margin-bottom: 10px;
     font-size: 20px;
+    display: inline-block; 
+    background-color: #ff4081; 
+    color: white;         
+    padding: 10px 20px;    
+    margin: 10px;          
+    border-radius: 20px;   
+    font-weight: bold;
 
   }
   
@@ -91,6 +100,13 @@
     flex-wrap: wrap;
   }
   
+  .container-avaliações {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .imagem-unhas {
     width: 100%;
     max-width: 250px;
